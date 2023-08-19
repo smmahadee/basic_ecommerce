@@ -12,20 +12,12 @@ Install dependencies using one of the following commands:
 
 bash
 Copy code
-npm install
-# or
-yarn
-# or
-pnpm install
+npm install  or yarn or pnpm install
 Start the development server:
 
 bash
 Copy code
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm run dev or yarn dev  or pnpm dev
 Open http://localhost:3000 in your browser to see the project.
 
 You can begin editing the page by modifying pages/index.tsx. The page will automatically update as you make changes to the file.

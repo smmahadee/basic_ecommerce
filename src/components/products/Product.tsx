@@ -49,7 +49,7 @@ const Product = ({ product }: ProductsProps) => {
           </button>
         ) : (
           <button
-            className='w-full bg-primary hover:bg-yellow transition duration-300 text-white uppercase py-2 text-center mt-5 text-danger'
+            className='w-full bg-primary hover:bg-yellow transition duration-300  uppercase py-2 text-center mt-5 text-danger'
             onClick={() => dispatch(removeProduct(product.id))}
           >
             remove item

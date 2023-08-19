@@ -52,14 +52,14 @@ const ProductPage = () => {
 
           {!isProductExistInCart ? (
             <button
-              className='px-4 bg-primary text-white uppercase py-2 text-center mt-5'
+              className='px-4 bg-primary hover:bg-yellow transitio duration-300 text-white uppercase py-2 text-center mt-5'
               onClick={() => dispatch(addProduct(product))}
             >
               add to cart
             </button>
           ) : (
             <button
-              className='px-4 bg-primary text-white uppercase py-2 text-center mt-5'
+              className='px-4 bg-primary  hover:bg-yellow transitio duration-300 text-white uppercase py-2 text-center mt-5'
               onClick={() => dispatch(removeProduct(product.id))}
             >
               remove item
@@ -68,7 +68,7 @@ const ProductPage = () => {
 
           <Link
             href='/'
-            className='px-4 ml-4 bg-primary text-white uppercase py-[11.5px] text-center mt-5'
+            className='px-4 ml-4 bg-primary hover:bg-yellow transitio duration-300 text-white uppercase py-[11.5px] text-center mt-5'
           >
             Go Back
           </Link>

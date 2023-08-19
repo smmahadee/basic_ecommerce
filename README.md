@@ -9,26 +9,25 @@ Clone the repository to your local machine.
 Navigate to the project directory in your terminal.
 
 Install dependencies using one of the following commands:
+npm install or yarn or pnpm install
 
-bash
-Copy code
-npm install  or yarn or pnpm install
 Start the development server:
-
-bash
-Copy code
 npm run dev or yarn dev  or pnpm dev
 Open http://localhost:3000 in your browser to see the project.
 
 You can begin editing the page by modifying pages/index.tsx. The page will automatically update as you make changes to the file.
 
-Features and Dependencies
-State management using Redux Toolkit
-API requests using Axios
-UI components using Tailwind CSS
-React icons from react-icons
-Toast notifications using react-hot-toast
-Data fetching with React Query
+## Features and Dependencies
+
+The project includes the following features and dependencies:
+
+- State management using Redux Toolkit
+- API requests using Axios
+- UI components using Tailwind CSS
+- React icons from `react-icons`
+- Toast notifications using `react-hot-toast`
+- Data fetching with React Query
+
 Learn More
 To learn more about Next.js, take a look at the Next.js Documentation.
 

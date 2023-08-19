@@ -65,7 +65,7 @@ const ProductPage = () => {
             </button>
           ) : (
             <button
-              className='px-4 bg-primary  hover:bg-yellow transitio duration-300 text-white uppercase py-2 text-center mt-5'
+              className='px-4 bg-primary  hover:bg-yellow transition duration-300 text-danger uppercase py-2 text-center mt-5'
               onClick={() => dispatch(removeProduct(product.id))}
             >
               remove item

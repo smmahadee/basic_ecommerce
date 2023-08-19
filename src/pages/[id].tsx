@@ -32,9 +32,9 @@ const ProductPage = () => {
         <title>{`${SITE_URL} - PRODUCTS`}</title>
       </Head>
       <Header />
-      <main className='p-5 md:p-20 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-16 text-black'>
+      <main className='p-5 md:p-20 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 text-black'>
         <div className='relative h-[690px]'>
-          <Image className='object-contain' src={product?.image} alt='' fill />
+          <Image className='object-contain' src={product?.image} alt='' fill priority sizes="100vw" />
         </div>
         <div>
           <h2 className='py-3 text-2xl text-grey-500 mb-5 leading-normal'>

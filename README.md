@@ -25,7 +25,6 @@ The project includes the following features and dependencies:
 - API requests using Axios
 - UI components using Tailwind CSS
 - React icons from `react-icons`
-- Toast notifications using `react-hot-toast`
 - Data fetching with React Query
 
 Learn More

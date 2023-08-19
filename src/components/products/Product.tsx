@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import ProductReviews from './ProductReviews';
-import img from '../../../public/img.png';
 import Link from 'next/link';
 import { ProductTypes } from '../types/ProductTypes';
 import { formatCurrency } from '../../utils/helper';

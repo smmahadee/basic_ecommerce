@@ -3,7 +3,6 @@ import { BiMinus, BiPlus } from 'react-icons/bi';
 import { BsTrash } from 'react-icons/bs';
 import Table from '../ui/Table';
 import Image from 'next/image';
-import img from '../../../public/img.png';
 import { useDispatch } from 'react-redux';
 import {
   addProduct,
@@ -37,7 +36,7 @@ const CartRow: React.FC<CartProps> = ({ item }) => {
     <Table.Row >
       <div className='flex gap-3 items-center'>
         <div className='relative h-[100px] w-[80px]'>
-          <Image className='object-cover' src={img} alt={item.title} fill />
+          <Image className='object-cover' src={item.image} alt={item.title} fill />
         </div>
         <h2 className='text-grey-500'>{item.title}</h2>
       </div>

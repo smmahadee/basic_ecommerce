@@ -3,7 +3,6 @@ import Header from '~/components/layout/Header';
 import { SITE_URL } from '~/utils/constants';
 import Image from 'next/image';
 import ProductReviews from '~/components/products/ProductReviews';
-import img from '../../public/img.png';
 import { useRouter } from 'next/router';
 import useProduct from '~/hooks/useProduct';
 import { formatCurrency } from '~/utils/helper';

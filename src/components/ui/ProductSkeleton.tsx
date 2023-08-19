@@ -1,7 +1,7 @@
 function ProductSkeleton() {
   return (
-    <div role='status' className='space-y-2.5 p-20 animate-pulse'>
-      <div className='grid grid-cols-2 gap-[30px] w-full '>
+    <div role='status' className='space-y-2.5 p-5 md:p-20 animate-pulse'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-[30px] w-full '>
         <div className='h-[690px] bg-grey-200  dark:bg-grey-700 w-full'></div>
 
         <div className=''>

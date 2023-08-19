@@ -23,7 +23,14 @@ const Product = ({ product }: ProductsProps) => {
     <div className='text-black hover:shadow-2xl transition duration-500 flex flex-col'>
       <Link href={`/${product.id}`}>
         <div className='relative h-[245px] group'>
-          <Image className='object-contain' src={product?.image} alt='' fill />
+          <Image
+            className='object-contain'
+            src={product?.image}
+            alt=''
+            fill
+            sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+            priority
+          />
           <div className='absolute left-0 right-0 bottom-0 top-0 bg-black/50 invisible opacity-0 group-hover:visible  group-hover:opacity-80 flex justify-center items-center text-white uppercase transition duration-500'>
             Go To Details
           </div>

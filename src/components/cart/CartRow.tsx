@@ -35,8 +35,8 @@ const CartRow: React.FC<CartProps> = ({ item }) => {
   return (
     <Table.Row >
       <div className='flex gap-3 items-center'>
-        <div className='relative h-[100px] w-[80px]'>
-          <Image className='object-cover' src={item.image} alt={item.title} fill />
+        <div className='relative h-[100px] w-[100px]'>
+          <Image className='object-contain' src={item.image} alt={item.title} fill />
         </div>
         <h2 className='text-grey-500'>{item.title}</h2>
       </div>

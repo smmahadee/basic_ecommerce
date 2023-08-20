@@ -27,7 +27,7 @@ const Product = ({ product }: ProductsProps) => {
             src={product?.image}
             alt=''
             fill
-            sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+            sizes='(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 25vw'
             priority
           />
           <div className='absolute left-0 right-0 bottom-0 top-0 bg-black/50 invisible opacity-0 group-hover:visible  group-hover:opacity-80 flex justify-center items-center text-white uppercase transition duration-500'>

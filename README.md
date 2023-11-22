@@ -1,4 +1,4 @@
-Hishabee Ecommerce
+
 This is a mini ecommerce project. While the task itself was simple, I took the opportunity to structure and customize the codebase as if it were a larger project. The project is built using Next.js and utilizes various libraries and tools for state management, UI, and more.
 
 Getting Started
